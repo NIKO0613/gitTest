@@ -1,0 +1,16 @@
+#include<stdio.h>
+static int bottles_sum = 99;
+int main()
+{
+	for (bottles_sum; bottles_sum > 1; bottles_sum--)
+	{
+		printf("%d bottles of beer on the wall, %d bottles of beer.\n",bottles_sum,bottles_sum);
+		printf("Take one down.\n");
+		printf("Pass it around.\n");
+	}
+	printf("one bottle of beer on the wall, one bottles of beer.\n");
+	printf("Take one down.\n");
+	printf("Pass it around.\n");
+	printf("No more bottles of beer on the wall.\n");
+
+}
